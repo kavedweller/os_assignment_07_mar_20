@@ -1,20 +1,36 @@
+Data Definition Language (DDL):
+
+    CREATE DATABASE:- The CREATE DATABASE statement is used to create a new SQL database.
+    CREATE TABLE:- The CREATE TABLE statement is used to create a new table.
+    USE:- The USE Statement is used to select a database and perform SQL operations into that database.
+    PRIMARY KEY:- The PRIMARY KEY constraint uniquely identifies each record in a table. Primary keys must contain UNIQUE values, and cannot contain NULL values.
+    FOREIGN KEY:- The FOREIGN KEY constraint is used to prevent actions that would destroy links between tables. A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+
+
 Data Manipulation Language (DML):
 
 SQL commands & statements:
-    SELECT - A SELECT statement retrieves zero or more rows from one or more database tables or database views.
-    UPDATE - The SQL UPDATE statement is used to modify the existing records in a table.
-    SET - The SET command is used with UPDATE to specify which columns and values that should be updated in a table.
-    DELETE - The DELETE statement is used to delete existing records in a table
-    INSERT INTO - The INSERT INTO statement is used to insert new records in a table.
-    VALUES - The VALUES command specifies the values of an INSERT INTO statement.
+    SELECT:- A SELECT statement retrieves zero or more rows from one or more database tables or database views.
+    AS: The AS command is used to rename a column or table with an alias. Usually written with SELECT statement.
+    UPDATE:- The SQL UPDATE statement is used to modify the existing records in a table.
+    SET:- The SET command is used with UPDATE to specify which columns and values that should be updated in a table.
+    DELETE:- The DELETE statement is used to delete existing records in a table
+    INSERT INTO:- The INSERT INTO statement is used to insert new records in a table.
+    VALUES:- The VALUES command specifies the values of an INSERT INTO statement.
+    GROUP BY:- The GROUP BY statement groups rows that have the same values into summary rows.
 
 SQL Clauses:
-    * (Wildcard) - It is used to substitute one or more characters in a string. Here * is used to select all the data from the table.
-    FROM - The SQL FROM clause is used to list the tables and any joins required for the SQL statement. 
-    WEHERE - The WHERE clause is used to filter records.
+    * (Wildcard):- It is used to substitute one or more characters in a string. Here * is used to select all the data from the table.
+    FROM:- The SQL FROM clause is used to list the tables and any joins required for the SQL statement. 
+    WEHERE:- The WHERE clause is used to filter records.
+    ON:- The ON clause is used with sql joins to join columns that have different names.
 
 SQL Functions:
-    COUNT - The COUNT() function returns the number of rows that matches a specified criterion.
+    COUNT:- The COUNT() function returns the number of rows that matches a specified criterion.
+
+SQL Joins:
+    LEFT OUTER JOIN:- Returns all records from the left table, and the matched records from the right table
 
 SQL Operators:
-    >  - 'Greater than' comparison operator is used to compare two values.
+    > :- 'Greater than' comparison operator is used to compare two values.
+    = :- 'Equal to' comparison operator is used to check if two values are equal.
