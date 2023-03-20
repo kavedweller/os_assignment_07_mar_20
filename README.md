@@ -1,9 +1,6 @@
 # Assignment 7 (March 20, 2023)
 ## SQL Commands Assignment
 
-Complete the following tasks and submit the PHP file and HTML file as part of your assignment.
-
- 
 
 #### Description:  
 In this assignment, you will be working with a fictional database of a company named "XYZ Corp." The database contains two tables, employees and departments. Your task is to write SQL commands to retrieve and manipulate data from these tables.  
