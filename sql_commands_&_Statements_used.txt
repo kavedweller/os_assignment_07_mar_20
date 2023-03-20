@@ -1,0 +1,20 @@
+Data Manipulation Language (DML):
+
+SQL commands & statements:
+    SELECT - A SELECT statement retrieves zero or more rows from one or more database tables or database views.
+    UPDATE - The SQL UPDATE statement is used to modify the existing records in a table.
+    SET - The SET command is used with UPDATE to specify which columns and values that should be updated in a table.
+    DELETE - The DELETE statement is used to delete existing records in a table
+    INSERT INTO - The INSERT INTO statement is used to insert new records in a table.
+    VALUES - The VALUES command specifies the values of an INSERT INTO statement.
+
+SQL Clauses:
+    * (Wildcard) - It is used to substitute one or more characters in a string. Here * is used to select all the data from the table.
+    FROM - The SQL FROM clause is used to list the tables and any joins required for the SQL statement. 
+    WEHERE - The WHERE clause is used to filter records.
+
+SQL Functions:
+    COUNT - The COUNT() function returns the number of rows that matches a specified criterion.
+
+SQL Operators:
+    >  - 'Greater than' comparison operator is used to compare two values.
